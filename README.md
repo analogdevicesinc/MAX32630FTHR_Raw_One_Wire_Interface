@@ -1,5 +1,5 @@
 # MAX32630FTHR Raw 1-Wire Interface
-Firmware plus GUI for the MAX32630FTHR that exposes a raw 1-Wire interface so customers can use the system as tool to help read and decipher 1-Wire data sheet commands for the 1-Wire and iButton devices sold by Maxim.<br>
+Firmware plus GUI for the MAX32630FTHR that exposes a raw 1-Wire interface so customers can use the system as a tool to help read and decipher 1-Wire data sheet commands for the 1-Wire and iButton devices sold by Maxim.<br>
 
 <b>Required Components</b>:
 <ul>
@@ -81,7 +81,7 @@ DS18B20 Operation Example 1:
 <li>'Read Bytes'</li>
 <ul>
 <li>Output from reading:  9 bytes of scratchpad data, 1st byte is LSB of Temperature; 9th byte is CRC</li>
-<li>Note: Should not be a sequence of F's, which indicates unsuccessfull communication</li>
+<li>Note: Should not be a sequence of F's, which indicates unsuccessful communication</li>
 <ul>
 </ul>
 </li>

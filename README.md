@@ -50,7 +50,7 @@ Firmware plus GUI for the MAX32630FTHR that exposes a raw 1-Wire interface so cu
 Following along with the DS18B20 datasheet on page 18, this will demonstrate how to use this program to mirror the operations
 DS18B20 Operation Example 1:
 <ol>
-<li> <p>
+<li> <br>
 <ul>
 <li>Standard Search (to obtain ROM ID's)</li>
 <li>Select a ROM ID from the dropdown</li>
@@ -58,7 +58,7 @@ DS18B20 Operation Example 1:
 <li>'Send ROM Command'</li>
 </ul>
 </li>
-<li><p>
+<li><br>
 <ul>
 <li>Enter '44' into 'Data to Send'</li>
 <li>Change the selection from Normal to Strong Pull-Up after Writing Byte</li>
@@ -67,29 +67,28 @@ DS18B20 Operation Example 1:
 <li>'Send Data + Pull-Up Option'</li>
 </ul>
 </li>
-<li><p>
+<li><br>
 <ul>
 <li>Select the same ROM ID from the list</li>
 <li>'Reset + Match ROM'</li>
 <li>'Send ROM Command'</li>
 </ul>
 </li>
-<li><p>
+<li><br>
 <ul>
 <li>Enter 'BE' into 'Data to Send'</li>
 <li>Select 9 in the 'Number of Bytes to Read' +/- box</li>
 <li>'Read Bytes'</li>
 </ul>
 </li>
-<li><p><b>Output</b>:
+<li><br><b>Output</b>:
 <ul>
 <li>9 byte scratchpad, 1st byte is LSB of Temperature; 9th byte is CRC</li>
 <li>Note: Should not be a sequence of F's, which indicates unsuccessfull communication</li>
 </ul>
 </li
 </ol><p>
-<p>
-
+</ol>
 <b>Decoding</b>:<p>
 This program relies on an arbitrary ASCII set of codes that was created by the developer and is hidden from the user when interacting with the GUI. However, if only using the firmware and not the GUI, then you will need these codes to keep the firmware functional by
 sending them through the serial port to the FTHR via a serial port terminal program. Each code stands for a 1-Wire command.

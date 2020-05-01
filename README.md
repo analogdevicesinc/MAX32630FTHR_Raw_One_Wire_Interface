@@ -81,7 +81,7 @@ DS18B20 Operation Example 1:
 <li>'Read Bytes'</li>
 </ul>
 </li>
-<li><br><b>Output</b>:
+<li><p><b>Output</b>:
 <ul>
 <li>9 byte scratchpad, 1st byte is LSB of Temperature; 9th byte is CRC</li>
 <li>Note: Should not be a sequence of F's, which indicates unsuccessfull communication</li>

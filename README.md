@@ -79,14 +79,12 @@ DS18B20 Operation Example 1:
 <li>Enter 'BE' into 'Data to Send'</li>
 <li>Select 9 in the 'Number of Bytes to Read' +/- box</li>
 <li>'Read Bytes'</li>
+<ul>
+<li>Output from reading:  9 bytes of scratchpad data, 1st byte is LSB of Temperature; 9th byte is CRC</li>
+<li>Note: Should not be a sequence of F's, which indicates unsuccessfull communication</li>
+<ul>
 </ul>
 </li>
-<li><br><b>Output</b>:
-<ul>
-<li>9 byte scratchpad, 1st byte is LSB of Temperature; 9th byte is CRC</li>
-<li>Note: Should not be a sequence of F's, which indicates unsuccessfull communication</li>
-</ul>
-</li
 </ol><p>
 </ol>
 <b>Decoding</b>:<p>
@@ -104,19 +102,19 @@ sending them through the serial port to the FTHR via a serial port terminal prog
 <li>'RRI': Standard Bus Search</li>
 <li>'RSK': Skip ROM</li>
 <li>'RAS': Alarm Search</li>
-</ul>
+</ul><p>
 <li>Speed Commands:</li>
 <ul>
 <li>'SNL': Normal Speed</li>
 <li>'SOD': Overdrive Speed</li>
-</ul>
+</ul><p>
 <li>Read/Write Commands</li>
 <ul>
 <li>'WWI' + '1/0': Write Bit (1 | 0)</li>
 <li>'WRI': Read Bit</li>
 <li>'WWY' + data: Write Bytes and the data to write</li>
 <li>'WRY' + numBytes: Read Bytes and the number of bytes to read</li>
-</ul>
+</ul><p>
 <li>Pullup Commands</li>
 <ul>
 <li>'PNO': Normal Pullup</li>

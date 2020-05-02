@@ -53,6 +53,8 @@ Firmware plus GUI for the MAX32630FTHR that exposes a raw 1-Wire interface so cu
 <li>LED will cycle from Blue to Green when commands are received</li>
 </ul>
 
+<img src="RawOneWireInterfaceGUI.png" alt="Screenshot">
+
 <b>Example</b>:<p>
 Following along with the DS18B20 datasheet on page 18, this will demonstrate how to use this program to mirror the operations
 DS18B20 Operation Example 1:

@@ -3,7 +3,7 @@ Firmware plus GUI for the MAX32630FTHR that exposes a raw 1-Wire interface so cu
 
 <b>Required Components</b>:
 <ul>
-<li>MAX32630FTHR (FTHR) + USB Cable + <a href="https://os.mbed.com/platforms/MAX32625PICO/">MAX32625PICO</a> (to load the Firmware). Please note that the MAX32630PICO connects to the PC with a separate USB cable and connects to the FTHR board through a supplied ribbon cable</li>
+<li>MAX32630FTHR (FTHR) + USB Cable + <a href="https://os.mbed.com/platforms/MAX32625PICO/">MAX32625PICO</a> (to load the Firmware). Please note that the MAX32625PICO connects to the PC with a separate USB cable and connects to the FTHR board through a supplied ribbon cable</li>
 <li>MAX32630FTHR GUI and Firmware</li>
 <li>Any number of 1-Wire devices</li>
 <li>Hardware to create a 1-Wire device bus</li>
@@ -12,7 +12,7 @@ Firmware plus GUI for the MAX32630FTHR that exposes a raw 1-Wire interface so cu
 <b>Software Download/Install</b>:
 <ol>
 <li>Click the "Clone or Download" button and click "Download ZIP" above (from the main GITHUB repo page). After the download finishes, unzip the archive to the directory of choice. All the files needed to run the board can be found in the Firmware and Software directories</li>
-<li>Program the FTHR board with the .bin file found in the Firmware directory. Once the MAX32630PICO is plugged into the PC, this is a simple drag and drop of the file onto the hard drive labeled "Daplink" or "mbed"</li>
+<li>Program the FTHR board with the .bin file found in the Firmware directory. Once the MAX32625PICO is plugged into the PC, this is a simple drag and drop of the file onto the hard drive labeled "Daplink" or "mbed"</li>
 <li>Install the GUI by double-clicking setup.exe located in the .\Software\Publish directory.</li>
 </ol>
 
